@@ -2,7 +2,7 @@ package se.lexicon;
 
 public class ArrayDemo {
     public static void main(String[] args) {
-        ex2();
+        maxNumber();
 
 
         /*
@@ -41,6 +41,26 @@ public class ArrayDemo {
 
     public static void ex3(){
         // todo Arrays sort
+        int[] orinArray = {5,7,3,4};
+        int[] newArray = new int[orinArray.length +1];
+        //System.out.println(newArray[2]);
+        for(int i = 0 ; i < orinArray.length ; i++){
+            newArray[i] = orinArray[i];
+        }
+        newArray[orinArray.length] = 68;
+        System.out.println(newArray[4]);
 
     }
+
+    public static void maxNumber(){
+        int[] numbers = {21,17,34,64};
+        int max = numbers[0];
+        for(int i = 1 ; i < numbers.length ; i++){
+        if(numbers[i] > max){
+            max = numbers[i];
+        }
+        }
+        System.out.println(max);
+    }
+
 }
