@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53591084-963e-4472-9615-9d3b396cdcba" name="Changes" comment="maxNumber">
+    <list default="true" id="53591084-963e-4472-9615-9d3b396cdcba" name="Changes" comment="ex4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/ScalarVsArrayVsString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/ArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/ArrayDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +61,8 @@
   "keyToString": {
     "Application.ArrayDemo.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.ScalarVsArrayVsString.executor": "Run",
+    "Application.temp.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -74,7 +76,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArrayDemo">
+  <component name="RunManager" selected="Application.ScalarVsArrayVsString">
     <configuration name="ArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="se.lexicon.ArrayDemo" />
       <module name="arrays-lecture" />
@@ -101,8 +103,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ScalarVsArrayVsString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.ScalarVsArrayVsString" />
+      <module name="arrays-lecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.temp" />
+      <module name="arrays-lecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScalarVsArrayVsString" />
+        <item itemvalue="Application.temp" />
         <item itemvalue="Application.ArrayDemo" />
         <item itemvalue="Application.Main" />
       </list>
@@ -124,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729615592275</updated>
-      <workItem from="1729615593343" duration="8527000" />
+      <workItem from="1729615593343" duration="10119000" />
     </task>
     <task id="LOCAL-00001" summary="Arrays demo1">
       <option name="closed" value="true" />
@@ -158,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729624759928</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ex4">
+      <option name="closed" value="true" />
+      <created>1729626316390</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729626316390</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +207,7 @@
     <MESSAGE value="Arrays ex1" />
     <MESSAGE value="todo" />
     <MESSAGE value="maxNumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="maxNumber" />
+    <MESSAGE value="ex4" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex4" />
   </component>
 </project>
