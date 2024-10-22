@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53591084-963e-4472-9615-9d3b396cdcba" name="Changes" comment="Arrays demo1">
+    <list default="true" id="53591084-963e-4472-9615-9d3b396cdcba" name="Changes" comment="Arrays ex1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/ArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/ArrayDemo.java" afterDir="false" />
     </list>
@@ -124,7 +124,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729615592275</updated>
-      <workItem from="1729615593343" duration="2995000" />
+      <workItem from="1729615593343" duration="3726000" />
     </task>
     <task id="LOCAL-00001" summary="Arrays demo1">
       <option name="closed" value="true" />
@@ -134,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729617720567</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Arrays ex1">
+      <option name="closed" value="true" />
+      <created>1729618829366</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729618829366</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +150,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Arrays demo1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrays demo1" />
+    <MESSAGE value="Arrays ex1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrays ex1" />
   </component>
 </project>
