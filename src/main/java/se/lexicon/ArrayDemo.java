@@ -2,7 +2,7 @@ package se.lexicon;
 
 public class ArrayDemo {
     public static void main(String[] args) {
-        maxNumber();
+        ex4();
 
 
         /*
@@ -61,6 +61,23 @@ public class ArrayDemo {
         }
         }
         System.out.println(max);
+    }
+
+    public static void ex4(){
+        String[][] board = new String [3][4];
+        board[0][0] = "✨";
+        board[0][1] = "🎭";
+        board[1][1] = "🎢";
+        board[2][1] = "👓";
+        board[2][3] = "🎨";
+        for(int i = 0 ; i < board.length ; i++){
+            for(int j = 0 ; j < board[i].length ; j++){
+                System.out.print(board[i][j]);
+            }
+            System.out.println();
+        }
+
+
     }
 
 }
