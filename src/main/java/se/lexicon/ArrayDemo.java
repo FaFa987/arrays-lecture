@@ -2,7 +2,7 @@ package se.lexicon;
 
 public class ArrayDemo {
     public static void main(String[] args) {
-        ex1();
+        ex2();
 
 
         /*
@@ -22,5 +22,13 @@ public class ArrayDemo {
         System.out.println(names[1]);
         names[names.length -1] = "Jane";
         System.out.println(names[2]);
+    }
+
+    public static void ex2(){
+        int[] numbers = {1,2,3,4,5,6};
+        //System.out.println(numbers[0]);
+        for(int i = 0; i < numbers.length ; i++){
+            System.out.println(numbers[i]);
+        }
     }
 }
