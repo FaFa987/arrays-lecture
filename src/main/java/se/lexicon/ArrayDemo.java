@@ -1,8 +1,10 @@
 package se.lexicon;
 
+import java.util.Arrays;
+
 public class ArrayDemo {
     public static void main(String[] args) {
-        ex4();
+        sortNumber();
 
 
         /*
@@ -80,4 +82,14 @@ public class ArrayDemo {
 
     }
 
-}
+    public static void sortNumber() {
+        int[] numbers = {21,78,45,4,577,6};
+        Arrays.sort(numbers);
+        for(int element : numbers){
+            System.out.println(element);
+        }
+
+
+        }
+    }
+
